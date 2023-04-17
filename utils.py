@@ -1,6 +1,3 @@
-"""
-miscellaneous utility functions.
-"""
 import matplotlib
 
 import sys

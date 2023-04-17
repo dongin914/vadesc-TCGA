@@ -1,6 +1,3 @@
-"""
-Utility functions for plotting.
-"""
 import os
 
 import numpy as np

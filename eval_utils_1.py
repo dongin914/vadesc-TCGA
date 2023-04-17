@@ -1,6 +1,3 @@
-"""
-Utility functions for model evaluation.
-"""
 import numpy as np
 
 import sys
