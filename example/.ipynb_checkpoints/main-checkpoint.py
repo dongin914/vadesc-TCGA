@@ -6,7 +6,7 @@ import numpy as np
 from train import train_model
 from train import setup_seed
 from sklearn.model_selection import train_test_split
-from eval1 import evaluate_vadesc, evaluate_coxPH, evaluate_kmeans
+from eval import evaluate_vadesc, evaluate_coxPH, evaluate_kmeans
 
 project_dir = os.path.dirname(os.getcwd())
 config_path = Path(os.path.join(project_dir, 'configs/test.yml'))
@@ -17,9 +17,9 @@ print(configs)
 seed = 20220229
 setup_seed(seed)
 
-GeneCount = np.load('./ProcessedData/GeneCount_GroupNorm.npy',allow_pickle=True)
-TTE = np.load('./ProcessedData/TTE_GroupNorm.npy',allow_pickle=True)
-EVENT = np.load('./ProcessedData/Event_GroupNorm.npy',allow_pickle=True)
+GeneCount = np.load('../processedData/GeneCount.npy',allow_pickle=True)
+TTE = np.load('../processedData/TTE.npy',allow_pickle=True)
+EVENT = np.load('../processedData/Event.npy',allow_pickle=True)
 
 X_train = GeneCount
 Y_train = np.stack([TTE,EVENT],axis=1)
@@ -30,11 +30,7 @@ X_train,X_test,Y_train,Y_test=train_test_split(X_train,Y_train,test_size=0.2,shu
 
 model = train_model(configs, X_train, Y_train, X_test, Y_test, seed)
 
-weights_path = "./model_weights/model_weights.h5"
-train.save_weights(model, weights_path)
-
-new_model = GMM_Survival(**configs['training'])
-train.load_weights(new_model, weights_path)
+model.save_weights('./model_weights/weights.h5')
 
 evaluate_vadesc(model, X_train, Y_train, seed)
 evaluate_coxPH()

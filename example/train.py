@@ -5,10 +5,10 @@ import tensorflow as tf
 import pandas as pd
 import pickle
 
-from data_utils import DataGen, get_gen
-from model import GMM_Survival
-from losses import Losses
-from eval_utils_1 import cindex_metric
+from model.data_utils import DataGen, get_gen
+from model.model import GMM_Survival
+from model.losses import Losses
+from model.eval_utils import cindex_metric
 from sklearn.model_selection import train_test_split
 
 def setup_seed(seed):
@@ -39,7 +39,7 @@ def train_model(configs, X_train, Y_train, X_test, Y_test, seed):
     gen_train = get_gen(X_train, Y_train, configs, 16)
     gen_test = get_gen(X_test, Y_test, configs, 16, validation=True)
 
-    model.fit(gen_train, validation_data=gen_test, epochs=160, verbose=1)
+    model.fit(gen_train, validation_data=gen_test, epochs=55, verbose=1)
     model.summary()
 
     return model
