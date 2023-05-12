@@ -30,5 +30,3 @@ If you wish to run in a Jupyter Notebook environment, follow the steps below:
 
 1. First, execute the dataprocessing as mentioned above.
 2. Then, run `clusting.ipynb`. :arrow_forward:
-
-Let's dive into the world of Survival Analysis! :swimmer:
