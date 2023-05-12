@@ -1,6 +1,7 @@
 # SurvivalClustering :boom:
 
-SurvivalClustering provides benchmarking for various techniques used in survival analysis. The dataset used for this purpose is the TCGA data. 
+SurvivalClustering provides benchmarking for various techniques used in survival analysis. 
+The dataset used for this purpose is the TCGA data. 
 
 ## Development Environment :hammer_and_wrench:
 
