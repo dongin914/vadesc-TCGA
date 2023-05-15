@@ -3,11 +3,7 @@
 SurvivalClustering provides benchmarking for various techniques used in survival analysis. 
 The dataset used for this purpose is the TCGA data. 
 
-# 🚀 Project Title
-
-This project is a benchmark implementation of the Vadesc technology, utilizing the TCGA dataset.
-
-## 🔗 References
+## References 🔗
 
 This work is based on the Vadesc methodology, originally presented by i6092467. We have taken the foundational principles of this technology and incorporated the TCGA dataset for enhanced performance and analysis. For further details about the original work, please refer to the following resources:
 
