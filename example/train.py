@@ -16,6 +16,7 @@ def setup_seed(seed):
     np.random.seed(seed) 
     tf.random.set_seed(seed)
     os.environ['TF_DETERMINISTIC_OPS'] = '1'  
+    os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
 def save_weights(model, weights_path):
     model.save_weights(weights_path)
