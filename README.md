@@ -38,4 +38,4 @@ In some cases, you may need to install the Microsoft Visual C++ Build Tools. For
 If you wish to run in a Jupyter Notebook environment, follow the steps below:
 
 1. First, execute the dataprocessing as mentioned above.
-2. Then, run `clusting.ipynb`. :arrow_forward:
+2. Then, run `clusting.ipynb`. :arrow_forward: 
