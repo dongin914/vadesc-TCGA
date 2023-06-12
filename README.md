@@ -28,7 +28,12 @@ Make sure to match the following library versions:
 
 This benchmark has been reproduced in a Windows environment. :computer:
 
-In some cases, you may need to install the Microsoft Visual C++ Build Tools. For installation, please follow this [link](https://visualstudio.microsoft.com/ko/downloads/#build-tools-for-visual-studio-2019).
+## Additional Environment Setup :wrench:
+
+In some cases, you may need to install the Microsoft Visual C++ Build Tools. For installation, please follow this [link](https://www.microsoft.com/en-US/download/details.aspx?id=48159).
+
+1. :link: Access the link above, select the language according to your user environment, and proceed with the download.
+2. :wrench: Install Microsoft Build Tools 2015 version and reboot after installation.
 
 ## Execution Steps :running:
 
