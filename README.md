@@ -16,6 +16,8 @@ We acknowledge and appreciate the efforts of the original authors in developing 
 
 - tensorflow 2.4.0 
 - tensorflow-gpu 2.4.0
+- CUDA 11.0
+- cuDNN 8.0
 
 ## Dependencies :books:
 Make sure to match the following library versions:
