@@ -14,19 +14,19 @@ We acknowledge and appreciate the efforts of the original authors in developing 
 
 ## Development Environment :hammer_and_wrench:
 
-- tensorflow 2.4.0 
-- tensorflow-gpu 2.4.0
-- CUDA 11.0
-- cuDNN 8.0
+- tensorflow==2.4.0 
+- tensorflow-gpu==2.4.0
+- CUDA==11.0
+- cuDNN==8.0
 
 ## Dependencies :books:
 Make sure to match the following library versions:
 
-- numpy=1.19.2
-- pandas=1.1.4
-- matplotlib=3.3.2
-- lifelines=0.25.6
-- scikit-learn=0.22.2.post1
+- numpy==1.19.2
+- pandas==1.1.4
+- matplotlib==3.3.2
+- lifelines==0.25.6
+- scikit-learn==0.22.2.post1
 
 This benchmark has been reproduced in a Windows environment. :computer:
 
