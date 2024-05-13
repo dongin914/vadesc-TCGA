@@ -1,0 +1,20 @@
+# Data
+data:
+  data_name: test
+
+training:
+  # Training
+  eval_frequency: 200
+
+  # Architecture
+  inp_shape: 11684
+  latent_dim: 2
+  num_clusters: 2
+  activation: "none"
+  monte_carlo: 1
+  learn_prior: True
+
+  # Survival model
+  weibull_shape: 1
+  survival: True
+  sample_surv: False
