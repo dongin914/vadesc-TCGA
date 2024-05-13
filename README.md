@@ -40,10 +40,10 @@ In some cases, you may need to install the Microsoft Visual C++ Build Tools. For
 
 ## Execution Steps :running:
 
-## Data Download
+## Data Download 💾
 To download the Preprocessed TCGA dataset, Click the following link: :  [DownloadLink](https://www.dropbox.com/scl/fo/s1iqh2cfvx2k7doz4idxw/AET5vQEuxY2BpRRg1R2JfqY?rlkey=zupbvyl19ii50q3tvnjwvw69d&dl=0)
 
-## How to run 
+## How to run❓
 1. To download the Preprocessed TCGA dataset referenced above, please click the following link
 2. In the terminal, run `example/py/python main.py`. :arrow_forward:
 
