@@ -30,9 +30,6 @@ Make sure to match the following library versions:
 
 This benchmark has been reproduced in a Windows environment. :computer:
 
-## Data Download
-To download the TCGA dataset, Click the following link: :  [DownloadLink](https://www.dropbox.com/scl/fo/s1iqh2cfvx2k7doz4idxw/AET5vQEuxY2BpRRg1R2JfqY?rlkey=zupbvyl19ii50q3tvnjwvw69d&dl=0)
-
 ## Additional Environment Setup :wrench:
 
 In some cases, you may need to install the Microsoft Visual C++ Build Tools. For installation, please follow this [link](https://www.microsoft.com/en-US/download/details.aspx?id=48159).
@@ -42,10 +39,13 @@ In some cases, you may need to install the Microsoft Visual C++ Build Tools. For
 
 ## Execution Steps :running:
 
-1. For data preprocessing, execute `example/dataprocessing.ipynb`. :arrow_forward:
-2. Then, in the terminal, run `python main.py`. :arrow_forward:
+## Data Download
+To download the Preprocessed TCGA dataset, Click the following link: :  [DownloadLink](https://www.dropbox.com/scl/fo/s1iqh2cfvx2k7doz4idxw/AET5vQEuxY2BpRRg1R2JfqY?rlkey=zupbvyl19ii50q3tvnjwvw69d&dl=0)
+
+1. To download the Preprocessed TCGA dataset referenced above, please click the following link
+2. In the terminal, run `example/py/python main.py`. :arrow_forward:
 
 If you wish to run in a Jupyter Notebook environment, follow the steps below:
 
-1. First, execute the dataprocessing as mentioned above.
-2. Then, run `clusting.ipynb`. :arrow_forward:
+1. To download the Preprocessed TCGA dataset referenced above, please click the following link.
+2. Then, run `example/notebook/clusting.ipynb`. :arrow_forward:
